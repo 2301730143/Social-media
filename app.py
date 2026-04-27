@@ -1,7 +1,7 @@
 """
 Social Media Content Generator - Streamlit Web Application
-Author: GOPESH AGGARWAL
-Roll No: 2301730158
+Author: Ujjwal Tripathi
+Roll No: 2301730143
 
 Description:
 Interactive web interface for generating social media content using AI.
@@ -48,7 +48,7 @@ st.markdown("""
 def load_model():
     """
     Load the AI model (cached for performance)
-    Implemented by: GOPESH AGGARWAL (2301730158)
+    Implemented by: Ujjwal Tripathi (2301730143)
     """
     return pipeline("text-generation", model="gpt2")
 
@@ -56,7 +56,7 @@ def load_model():
 def generate_post(topic, generator):
     """
     Generate an engaging social media post using AI
-    Author: GOPESH AGGARWAL (2301730158)
+    Author: Ujjwal Tripathi (2301730143)
     """
     import re
     
