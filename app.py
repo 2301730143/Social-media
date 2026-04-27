@@ -231,7 +231,7 @@ def main():
     # Sidebar
     with st.sidebar:
         st.header("📋 Project Information")
-        st.write("**Developer:** Gopesh Aggarwal")
+        st.write("**Developer:** UJJWAL Aggarwal")
         st.write("**Roll No:** 2301730143")
         st.write("**Project:** Social Media Content Generator")
         st.divider()
